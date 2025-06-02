@@ -235,6 +235,6 @@ This project is licensed under the MIT License
 
 For questions or support, please contact:
 
-<span styles={{display: "inline-flex", alignItems: "center"}}>Kehinde Fasunle</span>
-[![Email](https://img.shields.io/badge/Email-kfasunle%40gmail.com-red)](mailto:kfasunle@gmail.com)
+Kehinde Fasunle |
+[![Email](https://img.shields.io/badge/Email-kfasunle%40gmail.com-red)](mailto:kfasunle@gmail.com) |
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/FasunleKehinde)
