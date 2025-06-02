@@ -4,7 +4,7 @@
   "description": "A simple mailer service",
   "scripts": {
     "dev": "bun run --watch --hot -b src/index.ts",
-    "docs": "jsdoc -c jsdoc.json ./src/**/*.ts -d docs",
+    "docs": "jsdoc -c jsdoc.json",
     "format": "bun run prettier --write .",
     "lint": "eslint --fix --ext .ts src",
     "lint:check": "eslint --ext .ts src",

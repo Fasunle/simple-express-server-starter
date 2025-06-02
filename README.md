@@ -115,7 +115,7 @@ bun i
 3. Start the application:
 
 ```bash
-npm start
+bun run dev
 ```
 
 ## Usage Examples
@@ -162,10 +162,10 @@ export class Post {
 
 ```bash
 # Generate migration
-npm run typeorm migration:generate -- -n PostRefactoring
+bun run typeorm migration:generate -- -n PostRefactoring
 
 # Run migrations
-npm run typeorm migration:run
+bun run typeorm migration:run
 ```
 
 ## API Documentation
@@ -201,7 +201,7 @@ The application implements robust error handling:
 Run tests using:
 
 ```bash
-npm test
+bun test
 ```
 
 ## Security Features
@@ -235,6 +235,6 @@ This project is licensed under the MIT License
 
 For questions or support, please contact:
 
-Kehinde Fasunle
+<span styles={{display: "inline-flex", alignItems: "center"}}>Kehinde Fasunle</span>
 [![Email](https://img.shields.io/badge/Email-kfasunle%40gmail.com-red)](mailto:kfasunle@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/FasunleKehinde)
