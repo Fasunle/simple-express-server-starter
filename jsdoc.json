@@ -1,0 +1,18 @@
+{
+  "tags": {
+    "allowUnknownTags": true
+  },
+  "source": {
+    "include": ["src"],
+    "includePattern": ".js$"
+  },
+  "opts": {
+    "destination": "./docs",
+    "recurse": true,
+    "template": "default"
+  },
+  "templates": {
+    "systemName": "Coco Mailer",
+    "footer": "© 2025 Coco. Author: Kehinde Fasunle (kfasunle@gmail.com)"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "name": "mailer",
+  "version": "1.0.0",
+  "description": "A simple mailer service",
+  "scripts": {
+    "dev": "bun run --watch --hot -b src/index.ts",
+    "docs": "jsdoc -c jsdoc.json",
+    "format": "bun run prettier --write .",
+    "lint": "eslint --fix --ext .ts src",
+    "lint:check": "eslint --ext .ts src",
+    "start": "ts-node src/index.ts",
+    "typeorm": "typeorm-ts-node-commonjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "class-transformer": "^0.5.1",
+    "compression": "^1.8.0",
+    "cors": "^2.8.5",
+    "csv-parser": "^3.2.0",
+    "dotenv": "^16.5.0",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^2.0.0",
+    "nodemailer": "^7.0.3",
+    "pg": "^8.14.1",
+    "redis": "^5.1.1",
+    "reflect-metadata": "^0.2.2",
+    "typeorm": "0.3.24",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/compression": "^1.8.0",
+    "@types/cors": "^2.8.18",
+    "@types/jsonwebtoken": "^9.0.9",
+    "@eslint/js": "^9.28.0",
+    "@types/express": "^5.0.2",
+    "@types/node": "^22.15.29",
+    "eslint": "^9.28.0",
+    "globals": "^16.2.0",
+    "prettier": "^3.5.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.33.0"
+  }
+}
