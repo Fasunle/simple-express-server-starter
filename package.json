@@ -4,7 +4,7 @@
   "description": "A simple mailer service",
   "scripts": {
     "dev": "bun run --watch --hot -b src/index.ts",
-    "docs": "jsdoc -c jsdoc.json",
+    "docs": "jsdoc -c jsdoc.json ./src/**/*.ts -d docs",
     "format": "bun run prettier --write .",
     "lint": "eslint --fix --ext .ts src",
     "lint:check": "eslint --ext .ts src",
@@ -35,15 +35,16 @@
     "xlsx": "^0.18.5"
   },
   "devDependencies": {
+    "@eslint/js": "^9.28.0",
     "@types/bcrypt": "^5.0.2",
     "@types/compression": "^1.8.0",
     "@types/cors": "^2.8.18",
-    "@types/jsonwebtoken": "^9.0.9",
-    "@eslint/js": "^9.28.0",
     "@types/express": "^5.0.2",
+    "@types/jsonwebtoken": "^9.0.9",
     "@types/node": "^22.15.29",
     "eslint": "^9.28.0",
     "globals": "^16.2.0",
+    "jsdoc": "^4.0.4",
     "prettier": "^3.5.3",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3",
